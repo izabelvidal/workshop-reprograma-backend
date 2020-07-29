@@ -9,45 +9,45 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
   <body>
-    <nav class="barra-navegacao">
+    <nav class="navegacao">
       <img
-        class="barra-navegacao__logotipo"
+        class="logotipo"
         src="img/logotipo-reprograma.png"
       />
     </nav>
 
     <header class="cabecalho">
-      <h1 class="cabecalho__titulo">Calculadora</h1>
+      <h1 class="titulo">Calculadora</h1>
     </header>
 
     <main class="conteudo-principal">
-      <section class="secao secao-hora">
-        <article class="secao__conteudo">
-          <div class="secao__formulario">
+      <section class="secao">
+        <article class="conteudo">
+          <div class="formulario">
             
             <fieldset>
-              <div class="secao__formulario__grupo">
+              <div class="formulario-grupo">
                 <label for="valor-hora">Valor Hora</label>
                 <input type="number" id="valor-hora" />
               </div>
             </fieldset>
 
             <fieldset>
-              <div class="secao__formulario__grupo">
+              <div class="formulario-grupo">
                 <label for="horas-projeto">Horas Projeto</label>
                 <input type="number" id="horas-projeto" />
               </div>
             </fieldset>
 
-            <button onclick="calcular()">Calcular Projeto</button>
+            <button class="botao_calcular"onclick="calcular()">Calcular Projeto</button>
           </div>
         </article>
-        <footer class="secao__rodape">
-          <h3 class="secao__rodape__valor">
+        <footer class="rodape">
+          <h3 class="valor">
             <span id="resposta">Resposta</span>
           </h3>
-          <p class="secao__rodape__legenda">Seu valor</p>
-          <a href="index.html">Voltar</a>
+          <p class="legenda">Seu valor</p>
+          <a href="index.html"><button class="botao_calcular" href="index.html"> Voltar </button></a>
         </footer>
       </section>
     </main>
@@ -55,6 +55,7 @@
 
 
     <footer>
+      <h2 class="tema">Minhas Redes Sociais</h2>
       <div class="redes-sociais">
         <ul>
           <li>
